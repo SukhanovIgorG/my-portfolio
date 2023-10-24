@@ -1,0 +1,13 @@
+.task_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    
+    .lang_button {
+        align-self: flex-end;
+        margin: 24px 40px 0 0;
+        min-width: 70px;
+    }
+}

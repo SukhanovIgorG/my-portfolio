@@ -1,0 +1,20 @@
+{
+    "TaskPages": {
+        "header": "Список задач"
+    },
+    "TaskForm": {
+        "header": "Новая задача",
+        "placeholderTitle": "Задача",
+        "placeholderDescription": "Добавьте описание ... (необязательно)",
+        "saveButtonLabel": "Сохранить",
+        "deleteButtonLabel": "Удалить",
+        "cancelButtonLabel": "Отменить",
+        "addButtonLabel": "Добавить"
+    },
+    "TaskList": {
+        "filterButton": "Показать",
+        "showAll": " все",
+        "showNotCompleted": " только не выполненные",
+        "noTasks": "Вы молодец! В списке нет задач 💪"
+    }
+}

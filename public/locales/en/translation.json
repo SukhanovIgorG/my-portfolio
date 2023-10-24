@@ -1,0 +1,20 @@
+{
+    "TaskPages": {
+        "header": "Todo list"
+    },
+    "TaskForm": {
+        "header": "New task",
+        "placeholderTitle": "Task",
+        "placeholderDescription": "Add description ... (not required)",
+        "saveButtonLabel": "Save",
+        "deleteButtonLabel": "Delete",
+        "cancelButtonLabel": "Cancel",
+        "addButtonLabel": "Add"
+    },
+    "TaskList": {
+        "filterButton": "show",
+        "showAll": " all",
+        "showNotCompleted": " not completed",
+        "noTasks": "You're doing great! There are no tasks in the list 💪"
+    }
+}
