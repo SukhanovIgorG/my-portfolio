@@ -4,6 +4,7 @@ import { CustomSuspense } from './CustomSuspense';
 //General
 import { Header } from './Header';
 import { Footer } from './Footer';
+import { PreviewWindow } from './PreviewWindow';
 
 // Main page
 import { PortfolioList } from './PortfolioList';
@@ -19,6 +20,7 @@ export {
   CustomSuspense,
   Header,
   Footer,
+  PreviewWindow,
   PortfolioList,
   TaskList,
   TaskItem,

@@ -1,4 +1,4 @@
-import { ListItem } from './ListItem/ListItem'
+import { ListItem } from './ListItem'
 import { list } from './constants'
 import './portfolioList.sass'
 
