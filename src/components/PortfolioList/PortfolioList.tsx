@@ -1,5 +1,8 @@
+import { useState } from 'react'
 import { ListItem } from './ListItem'
 import { list } from './constants'
+import { PreviewWindow } from '../../components'
+
 import './portfolioList.sass'
 
 interface Item {
@@ -9,10 +12,17 @@ interface Item {
 }
 
 export const PortfolioList = () => {
+  const [content, setContent] = useState<Item | null>(null)
 
-  return (
-  <div className='portfolio_list'>
-    {list.map((item: Item, i) => <ListItem item={item} key={i * Math.random()} />)}
-  </div>
+  const previewHandler = (content: Item) => {
+    setContent(content)
+  }
+
+  return (<>
+    <div className='portfolio_list'>
+      {list.map((item: Item, i) => <ListItem item={item} setPreview={previewHandler} key={i * Math.random()} />)}
+    </div>
+    {content && <PreviewWindow content={content} />}
+  </>
   )
 }

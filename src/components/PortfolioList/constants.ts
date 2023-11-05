@@ -1,92 +1,47 @@
 export const list = [
   {
-    name: 'project',
-    year: 2020,
+    name: 'How to learn',
+    year: 2022,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'Travel Russia',
+    year: 2022,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'Mesto',
+    year: 2022,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'Movie explorer',
+    year: 2023,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'My site',
+    year: 2023,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'Maps editor',
+    year: 2023,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'Adminka',
+    year: 2023,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
+    name: 'This site',
+    year: 2023,
     link: './'
   },
   {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
-    link: './'
-  },
-  {
-    name: 'project',
-    year: 2020,
+    name: 'BAS Business automation system',
+    year: 202,
     link: './'
   },
 ]
