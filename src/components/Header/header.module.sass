@@ -27,7 +27,21 @@ header
     padding-left: 20px
     cursor: pointer
     mix-blend-mode: difference
+    color: var(--color-accent)
+
+    &:hover
+      color: var(--color-accent)
+      filter: drop-shadow( 0 0 10px var(--color-main) )
+
+    .image
+      mix-blend-mode: exclusion
+      width: 200px
+      margin-bottom: -50px
 
   button 
-    width: 10dvw
-    color: var(--color-main)
+    min-width: 10dvw
+    color: var(--color-accent)
+
+    &:hover
+      color: var(--color-main)
+      filter: drop-shadow( 0 0 10px var(--color-main) )
