@@ -3,11 +3,11 @@ import './mainPage.sass'
 
 const MainPage = () => {
   return (
-    <main>
+    <>
       <Header/>
       <PortfolioList/>
       <Footer/>
-    </main>
+    </>
   )
 }
 

@@ -1,0 +1,34 @@
+.footer
+  height: var(--footer-height)
+  min-height: var(--min-footer-height)
+  width: 100%
+  box-sizing: border-box
+
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+
+  .wrapper
+    position: fixed
+    top: calc(100dvh - var(--footer-height))
+    z-index: 1
+
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    width: 100%
+  
+    .container
+      height: 100%
+      width: 30%
+      display: flex
+      flex-direction: column
+      padding: 20px
+      box-sizing: border-box
+      mix-blend-mode: difference
+
+      .link
+        mix-blend-mode: difference
+        text-decoration: none
+      .link:hover
+        text-shadow: 0 0 10px white

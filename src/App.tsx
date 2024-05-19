@@ -1,5 +1,5 @@
 import { Route, Routes, HashRouter } from "react-router-dom"
-import { TaskPage, BlogPage, MainPageAsync } from "./pages"
+import { BlogPageAsync, MainPageAsync } from "./pages"
 import './App.css'
 
 function App() {
@@ -9,8 +9,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route path="/" element={<MainPageAsync />} />
-          <Route path="blog" element={<BlogPage />} />
-          <Route path="tasks" element={<TaskPage />} />
+          <Route path="/blog" element={<BlogPageAsync />} />
           <Route path="*" element={<>404 такой страницы нет</>} />
         </Routes>
       </HashRouter>

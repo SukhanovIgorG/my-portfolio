@@ -2,14 +2,14 @@
     font-family: "DrukWide";
     src : url("./fonts/Druk-Wide-Cy-Web-Medium-Regular.ttf");
 }
-@font-face {
-    font-family: "Akzidenz";
-    src : url("./fonts/akzidenzgroteskpro_regular.ttf");
-}
+
 :root {
+  --color-main: #0000FF;
   --color-accent: #646cff;
   --border-radius: 20px;
   --bg-color: #242424;
+  --footer-height: 20dvh;
+  --min-footer-height: 150px;
 
   font-family: DrukWide, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,31 +26,32 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
-}
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: start;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
+  color: var(--color-main)
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #535bf2;
+}
 
 button {
-  border-radius: var(--border-radius);
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -59,13 +60,14 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  cursor: pointer;
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: var(--color-main);
 }
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  border-color: var(--color-accent);
 }

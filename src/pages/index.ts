@@ -1,6 +1,2 @@
-export { TaskPage } from './TaskPages/TaskPage';
-export { BlogPage } from './BlogPage/BlogPage';
-
-import { MainPageAsync } from './MainPage/MainPageAsync';
-
-export { MainPageAsync }
+export { MainPageAsync } from './MainPage/MainPageAsync';
+export { BlogPageAsync } from './BlogPage/BlogPageAsync';

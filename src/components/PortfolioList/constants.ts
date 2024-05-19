@@ -41,7 +41,7 @@ export const list = [
   },
   {
     name: 'BAS Business automation system',
-    year: 202,
+    year: 2024,
     link: './'
   },
 ]
