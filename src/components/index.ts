@@ -1,5 +1,7 @@
 import { ErrorBoundary } from './ErrorBoundary'
 import { CustomSuspense } from './CustomSuspense';
+import { SectionTitle } from './SectionTitle/SectionTitle';
+import { Section } from './Section';
 
 //General
 import { Header } from './Header';
@@ -7,9 +9,7 @@ import { Footer } from './Footer';
 
 // Main page
 import { PortfolioList } from './PortfolioList';
-
-// Task page
-import { Wrapper } from './Wrapper';
+import { Resume } from './Resume/Resume';
 
 export {
   ErrorBoundary,
@@ -17,5 +17,7 @@ export {
   Header,
   Footer,
   PortfolioList,
-  Wrapper,
+  SectionTitle,
+  Resume,
+  Section
 };

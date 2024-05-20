@@ -60,14 +60,17 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: transparent;
   cursor: pointer;
   transition: border-color 0.25s;
   cursor: pointer;
 }
 
 button:hover {
-  border-color: var(--color-main);
+  transition: all 0.2s;
+  transform: scale(1.1);
+  filter: drop-shadow( 0 0 10px var(--color-main));
+  text-shadow: 0 0 10px var(--color-main);
 }
 
 button:focus,

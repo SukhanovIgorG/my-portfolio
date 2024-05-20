@@ -1,10 +1,12 @@
-import { Footer, Header, PortfolioList } from '../../components'
-import './mainPage.sass'
+import { Footer, Header, PortfolioList } from '../../components';
+import { Resume } from '../../components';
+import './mainPage.sass';
 
 const MainPage = () => {
   return (
     <>
-      <Header/>
+      <Header />
+      <Resume />
       <PortfolioList/>
       <Footer/>
     </>
